@@ -16,7 +16,10 @@ class HomePage extends React.Component {
   
   render() {
     return(
-      <Link to='/sign_up'>Sign Up</Link>
+      <>
+        <Link to='/sign_up'>Sign Up</Link>
+        <Link to='/booking'>Booking</Link>
+      </>
     );
   }
 }

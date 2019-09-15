@@ -1,0 +1,12 @@
+.left-column {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 23px;
+}
+
+.left-column span {
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 10px;
+  padding: 10px;
+}
